@@ -1,0 +1,111 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="agWdlkfTwqfsY3UPXBgN">
+    <mxGraphModel dx="2567" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-15" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CDdB2vcPLgkeWTHHPUVO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="start" vertex="1">
+          <mxGeometry height="80" width="120" x="-55" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-6" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CDdB2vcPLgkeWTHHPUVO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Input perintah yang akan di berikan ke ai" vertex="1">
+          <mxGeometry height="60" width="120" x="-55" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-8" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CDdB2vcPLgkeWTHHPUVO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-31" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="CDdB2vcPLgkeWTHHPUVO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="di peroses" vertex="1">
+          <mxGeometry height="60" width="120" x="-55" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-10" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="CDdB2vcPLgkeWTHHPUVO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-27" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CDdB2vcPLgkeWTHHPUVO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="jika ada perintah yang meminta permohohonan melakukan perubahan pada envaroment game" vertex="1">
+          <mxGeometry height="290" width="240" x="155" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="keluar kan jawaban dari perintah dari chat ai" vertex="1">
+          <mxGeometry height="60" width="120" x="-55" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="salah" vertex="1">
+          <mxGeometry height="30" width="60" x="275" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="stop" vertex="1">
+          <mxGeometry height="80" width="120" x="-55" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-17" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CDdB2vcPLgkeWTHHPUVO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-14" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="deklarasi perintah menjadi string" vertex="1">
+          <mxGeometry height="60" width="120" x="-55" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-25" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CDdB2vcPLgkeWTHHPUVO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="simpan string dari jawaban chat ai nya , untuk menjadi refrensi ke chat berikutnnya" vertex="1">
+          <mxGeometry height="80" width="140" x="-65" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-24" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.527;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="CDdB2vcPLgkeWTHHPUVO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-28" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="CDdB2vcPLgkeWTHHPUVO-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="720" />
+              <mxPoint x="55" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="lakukan perubahan envorment" vertex="1">
+          <mxGeometry height="60" width="120" x="495" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="benar" vertex="1">
+          <mxGeometry height="30" width="60" x="385" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-33" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="CDdB2vcPLgkeWTHHPUVO-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-35" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CDdB2vcPLgkeWTHHPUVO-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-325" y="660" />
+              <mxPoint x="5" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-30" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="jika ada perintah yang meminta permohohonan melakukan perubahan pada coding game" vertex="1">
+          <mxGeometry height="290" width="240" x="-410" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-34" edge="1" parent="1" source="CDdB2vcPLgkeWTHHPUVO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="CDdB2vcPLgkeWTHHPUVO-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-570" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="lakukan perubahan code" vertex="1">
+          <mxGeometry height="60" width="120" x="-630" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1000" width="1420" x="-660" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-37" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Permasalahan&lt;/h1&gt;&lt;p&gt;1 . ai harus menyambung ke api key ai , dan juga python&amp;nbsp; , trus ai harus menyambung ke ui godot yang kita buat&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="1145" x="-530" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="CDdB2vcPLgkeWTHHPUVO-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="670" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

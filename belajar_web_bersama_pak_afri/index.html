@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #25282b;
+            color: #ffffff;
+            margin: 0;
+            padding: 5vh 20px 20px;
+        }
+
+        /* navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .link {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .link a:hover {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        /* main */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px 0;
+        }
+
+        /* card */
+        .box a {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .box-container {
+            margin-top: 10vh;
+        }
+
+        .box-baris-1 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+            gap: 20px;
+        }
+
+        .box {
+            background-color: #3a4771;
+            min-height: 0;
+            padding: 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .box:hover {
+            background-color: #3498db;
+            color: #ffffff;
+            transform: scale(1.05);
+        }
+
+        img {
+            display: block;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 0 auto 20px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .logo a {
+                font-size: 24px;
+            }
+
+            .link a {
+                padding: 6px;
+            }
+
+            .box-container {
+                margin-top: 30px;
+            }
+
+            .box a {
+                font-size: 24px;
+            }
+
+            .box:hover {
+                transform: none;
+            }
+        }
+    </style>
+
+    <title>Format</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a >Tugas coding</a>
+        </div>
+            <div class="link">
+                <a href="index.html">Beranda</a>
+                <a href="media.html">Media</a>
+                <a href="https://github.com">Komunitas</a>
+                <a href="web-top-up.html">Kontak</a>
+            </div>
+        </nav>
+
+    <!-- main -->
+    <main>
+            <div class="box-container">
+                <div class="box-baris-1">
+                    <div class="box" onclick="location.href='biodata.html'">
+                        <img src="media/linked.png" alt="Web Top Up" width="100vh">
+                        <a href="biodata.html" class="btn btn-primary">Biodata</a>
+                        <p>Ini adalah halaman biodata saya , jika anda inggin melihatnya</p>
+                    </div>
+                    <div class="box" onclick="location.href='jadwal-pembelajaran.html'">
+                        <img src="media/jadwal.png" alt="Web Top Up" width="100vh">
+                        <a href="jadwal-pembelajaran.html" class="btn btn-primary">Jadwal pembelajaran</a>
+                        <p>Ini adalah halaman jadwal pembelajaran di kelas saya</p>
+                    </div>
+                    <div class="box" onclick="location.href='media.html'">
+                        <img src="media/video-icon.png" alt="Web Top Up" width="100vh">
+                        <a href="media.html" class="btn btn-primary">Media</a>
+                        <p>Ini adalah halam media saya , jika anda inggin melihatnya</p>
+                    </div>
+                    <div class="box" onclick="location.href='web-top-up.html'">
+                        <img src="media/web.png" alt="Web Top Up" width="100vh">
+                        <a href="web-top-up.html" class="btn btn-primary">Web Top Up</a>
+                        <p>Ini adalah halaman web top up saya , jika anda inggin melihatnya</p>
+                    </div>
+                </div>
+            </div>
+    </main>
+</body>
+</html>
